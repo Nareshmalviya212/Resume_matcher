@@ -1,8 +1,31 @@
+
 # 🧠 GenAI Resume Matcher with Chatbot Interface
 
 A smart, modular application that uses Generative AI techniques to match candidate resumes with a job description (JD) and allows users to interact with the data using a chatbot.
 
 Built using **Python**, **Streamlit**, **Groq LLM**, and **HuggingFace Embeddings**.
+
+
+---
+
+## 🛠️ How to Run the Project
+
+Follow these steps to set up and run the project locally:
+
+### 🔹 Step 1: Create and Activate Virtual Environment (Recommended)
+```bash
+# Create virtual environment
+python -m venv env
+
+# Activate (Windows)
+env\Scripts\activate
+
+# install libraries
+pip install -r requirements.txt
+
+# Run the streamlit app
+streamlit run app.py
+
 
 ---
 
